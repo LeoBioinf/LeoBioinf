@@ -12,13 +12,6 @@ Podes removê-los se não quiseres esse aspeto ou se preferires menos pedidos ex
   <img height="150" src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" alt="Animação decorativa de saudação" />
 </div>
 
-<div align="center">
-  <img src="https://img.shields.io/static/v1?message=LinkedIn&amp;logo=linkedin&amp;label=&amp;color=0077B5&amp;logoColor=white&amp;labelColor=&amp;style=for-the-badge" height="25" alt="Exemplo de badge LinkedIn" />
-  <img src="https://img.shields.io/static/v1?message=YouTube&amp;logo=youtube&amp;label=&amp;color=FF0000&amp;logoColor=white&amp;labelColor=&amp;style=for-the-badge" height="25" alt="Exemplo de badge YouTube" />
-  <img src="https://img.shields.io/static/v1?message=Twitter&amp;logo=twitter&amp;label=&amp;color=1DA1F2&amp;logoColor=white&amp;labelColor=&amp;style=for-the-badge" height="25" alt="Exemplo de badge Twitter" />
-</div>
-
-<p align="center"><em>Badges de exemplo: remove os serviços que não usas. Não são ligações para perfis pessoais.</em></p>
 
 <h1 align="center">Olá, sou Leo 👋</h1>
 
