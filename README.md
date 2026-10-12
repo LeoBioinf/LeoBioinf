@@ -1,47 +1,65 @@
-# Git e GitHub: a primeira versão do teu trabalho
+<!--
+MODELO DO WORKSHOP
+Este README é público no teu Fork. Substitui os textos entre [ ] por informação que
+queiras publicar. Um pseudónimo é suficiente. Não incluas email pessoal, telefone,
+morada, número de estudante, palavras-passe, tokens ou dados de outras pessoas.
+Para o exercício basta editar o título e duas linhas da secção "Sobre mim".
+As imagens e badges abaixo são exemplos opcionais carregados de serviços externos.
+Podes removê-los se não quiseres esse aspeto ou se preferires menos pedidos externos.
+-->
 
-**Workshop ArmisLAB × NUBI · 12 de outubro de 2026 · 14:00–15:30 · 1.º ano de Bioinformática**
+<div align="center">
+  <img height="150" src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" alt="Animação decorativa de saudação" />
+</div>
 
-Aqui estão a apresentação, os passos a seguir durante a sessão e um pequeno exercício. Não precisas de saber programar. Os **slides interativos acompanham também a prática**; os guias Markdown dão detalhes e ajudam se ficares bloqueado. No fim, terás uma cópia deste repositório na tua conta GitHub com uma alteração feita por ti.
+<div align="center">
+  <img src="https://img.shields.io/static/v1?message=LinkedIn&amp;logo=linkedin&amp;label=&amp;color=0077B5&amp;logoColor=white&amp;labelColor=&amp;style=for-the-badge" height="25" alt="Exemplo de badge LinkedIn" />
+  <img src="https://img.shields.io/static/v1?message=YouTube&amp;logo=youtube&amp;label=&amp;color=FF0000&amp;logoColor=white&amp;labelColor=&amp;style=for-the-badge" height="25" alt="Exemplo de badge YouTube" />
+  <img src="https://img.shields.io/static/v1?message=Twitter&amp;logo=twitter&amp;label=&amp;color=1DA1F2&amp;logoColor=white&amp;labelColor=&amp;style=for-the-badge" height="25" alt="Exemplo de badge Twitter" />
+</div>
 
-## Começar
+<p align="center"><em>Badges de exemplo: remove os serviços que não usas. Não são ligações para perfis pessoais.</em></p>
 
-1. Abre a [apresentação interativa](https://riquifeup.github.io/workshop_git/). A teoria segue `status → add → commit → push → log → pull → branch → merge → fork`; depois, os slides acompanham toda a prática.
-2. No [slide 16](https://riquifeup.github.io/workshop_git/slides/#slide-16), usa o QR para abrir este repositório. Depois verifica o [Visual Studio Code](guia/instalar-vscode.md), vê a opção [WSL + Ubuntu](guia/wsl-opcional.md) se usas Windows, e prepara Git pelo guia de [Windows](guia/instalar-windows.md), [macOS](guia/instalar-macos.md) ou [Linux](guia/instalar-linux.md). O [roteiro](guia/roteiro.md) dá mais detalhe.
-3. Na prática, vais criar um **Fork** deste repositório, clonar a tua cópia e preencher o [modelo pessoal](exercicio/README.md).
+<h1 align="center">Olá, sou Leo 👋</h1>
 
-## Índice
+<h3 align="left">👩‍💻 Sobre mim</h3>
 
-| Material | Para quê |
-| --- | --- |
-| [Apresentação no GitHub Pages](https://riquifeup.github.io/workshop_git/) | Slides para projetar ou rever no navegador |
-| [Fonte dos slides](docs/slides/index.html) | HTML da apresentação neste repositório |
-| [Roteiro](guia/roteiro.md) | Passos e verificações durante a sessão |
-| [Visual Studio Code](guia/instalar-vscode.md) | Verificar ou instalar o editor antes do exercício |
-| [Instalar no Windows](guia/instalar-windows.md) · [macOS](guia/instalar-macos.md) · [Linux](guia/instalar-linux.md) | Preparar o computador |
-| [WSL opcional](guia/wsl-opcional.md) | Para quem usa ou precisa de Linux dentro do Windows |
-| [Erros frequentes](guia/erros-frequentes.md) · [Perguntas](guia/perguntas.md) | Ajuda rápida quando algo não corre como esperado |
-| [Recursos e exemplos reais](guia/recursos.md) | Documentação e repositórios de Bioinformática |
-| [Modelo do exercício](exercicio/README.md) | O ficheiro que vais personalizar no teu Fork |
+<p align="left">
+  Estudo Bioinformática e tenho curiosidade sobre a genética da conservação.<br>
+  🔭 Gostava de investigar a sequência evolutiva dos hienídeos.<br>
+  📚 Neste momento estou a aprender Python.<br>
+  ⚡ Fora das aulas gosto de ler.
+</p>
 
-A apresentação publicada está organizada em [`docs/`](docs/): a página de entrada está em `docs/index.html`, os slides em `docs/slides/` e os logótipos em `docs/assets/brand/`.
+<h3 align="left">🛠 Linguagens e ferramentas</h3>
 
-## O percurso em uma linha
+Ainda estou a explorar. Os ícones seguintes são **exemplos visuais**, não uma lista de competências minhas. Posso apagá-los ou trocá-los quando fizer sentido.
 
-**Na prática:** abrir o repositório pelo QR → verificar VS Code → ver WSL opcional → preparar Git e a conta → Fork → Clone → editar o README → `git status` → `git add` → `git commit` → `git push` → `git log` → confirmar no GitHub.
+<div align="left">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original-wordmark.svg" height="40" alt="Exemplo: Go" />
+  <img width="12" alt="" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-original.svg" height="40" alt="Exemplo: Rust" />
+  <img width="12" alt="" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-plain-wordmark.svg" height="40" alt="Exemplo: Ruby" />
+  <img width="12" alt="" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dot-net/dot-net-plain-wordmark.svg" height="40" alt="Exemplo: .NET" />
+  <img width="12" alt="" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain-wordmark.svg" height="40" alt="Exemplo: Firebase" />
+  <img width="12" alt="" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-line-wordmark.svg" height="40" alt="Exemplo: AWS" />
+  <img width="12" alt="" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/circleci/circleci-plain.svg" height="40" alt="Exemplo: CircleCI" />
+  <img width="12" alt="" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" height="40" alt="Exemplo: Kubernetes" />
+  <img width="12" alt="" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-plain-wordmark.svg" height="40" alt="Exemplo: Docker" />
+</div>
 
-`git pull`, branches e `git merge` são explicados na teoria com diagramas interativos. O exercício principal usa o percurso acima.
+<h3 align="left">🔥 As minhas estatísticas</h3>
 
-O **Fork** é necessário: cria uma cópia na tua conta, onde podes enviar as tuas alterações. Se clonasses diretamente o repositório do formador, não terias permissão para fazer `push` para ele.
-
-## O que deves conseguir mostrar no fim
-
-- O endereço do teu Fork, na tua conta GitHub.
-- O texto que alteraste em `exercicio/README.md`.
-- Um commit teu na página **Commits** do Fork.
-
-Se ficares bloqueado, consulta [erros frequentes](guia/erros-frequentes.md) e chama quem está a apoiar a sala. Não partilhes palavras-passe, códigos de autenticação ou tokens.
+Esta secção é opcional. O primeiro resultado deste workshop já é real: fiz um commit e consigo encontrá-lo com `git log --oneline -5` e no histórico do meu Fork.
 
 ---
 
-Organização: **ArmisLAB**, em parceria com o **Núcleo de Bioinformática (NUBI)**. A apresentação e os guias fazem parte deste mesmo repositório para que os links se mantenham juntos.
+[Voltar ao roteiro do workshop](../guia/roteiro.md)
+
